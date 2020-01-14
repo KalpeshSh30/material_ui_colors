@@ -1,0 +1,41 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 6vh;    
+}
+.logo{
+    margin-right: 15px;
+    padding: 0 15px;
+    font-size: 20px;
+    background-color: #d0d6e2;
+    font-family: 'Segoe UI';
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+.select-container{
+    margin-left: 30rem;
+    margin-right: auto;
+}
+.slider{
+    width: 350px;
+    margin: 0 10px;
+    display: inline-block;
+}
+.rc-slider-track{
+    background-color: transparent ;
+}
+.rc-slider-handle,
+.rc-slider-handle:hover,
+.rc-slider-handle:active,
+.rc-slider-handle:focus{
+    outline: none ;
+    border: none ;
+    background-color: black ;
+    box-shadow: none;
+}
