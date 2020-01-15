@@ -9,6 +9,20 @@
     margin-bottom: -3.5px;
 }
 
+@media (max-width: 1200px) {
+    .ColorBox {
+        width: 25%;
+    }
+}
+@media (max-width: 900px) {
+    .ColorBox {
+        width: 33.33%;
+    }
+}@media (max-width: 600px) {
+    .ColorBox {
+        width: 50%;
+    }
+}
 .copy-button{
     width: 100px;
     height: 30px;
