@@ -23,7 +23,7 @@ class App extends Component {
   }
 
   savePalette(newPalette) {
-    this.setState({ palette: [...this.state.palette, newPalette] })
+    this.setState({ palettes: [...this.state.palettes, newPalette] })
   }
 
   render() {
