@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import classNames from "classnames";
 import { withStyles } from "@material-ui/core/styles";
-//import PaletteFormNav from "./PaletteFormNav";
+import PaletteFormNav from "./PaletteFormNav";
 import ColorPickerForm from "./ColorPickerForm";
 import Drawer from "@material-ui/core/Drawer";
 import Typography from "@material-ui/core/Typography";
@@ -149,12 +149,12 @@ class NewPaletteForm extends Component {
 
         return (
             <div className={classes.root}>
-                {/* <PaletteFormNav
+                <PaletteFormNav
                     open={open}
                     palettes={palettes}
                     handleSubmit={this.handleSubmit}
                     handleDrawerOpen={this.handleDrawerOpen}
-                /> */}
+                />
                 <Drawer
                     className={classes.drawer}
                     variant='persistent'
