@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    height: 6vh;    
+    height: 8vh;    
 }
 .logo{
     margin-right: 15px;
@@ -15,12 +15,30 @@
     display: flex;
     align-items: center;
 }
+.slider{
+    width: 350px;
+    margin: 0 10px;
+    display: inline-block;
+}
+@media (max-width: 1000px) {
+    .select-container {
+        margin-left: 100px !important;
+    }
+}
+@media (max-width: 850px) {
+    .select-container {
+        margin-left: 50px !important;
+    }
+}
 @media (max-width: 700px) {
     .logo {
         display: none;
     }
-    .slider {
-        width: 125px;
+    .slider{
+        width: 220px !important;
+    }
+    .select-container {
+        margin-left: 0px !important;
     }
 }
 .logo a{
